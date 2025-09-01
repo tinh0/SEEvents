@@ -1,0 +1,1 @@
+ALTER TABLE `event_comments` ADD `deleted` boolean DEFAULT false;

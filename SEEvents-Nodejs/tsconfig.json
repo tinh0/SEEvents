@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "moduleResolution": "bundler",
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "dist",
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "allowImportingTsExtensions": true
+}

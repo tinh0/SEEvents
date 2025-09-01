@@ -1,0 +1,1 @@
+ALTER TABLE `events_table` ADD `links` varchar(2048);

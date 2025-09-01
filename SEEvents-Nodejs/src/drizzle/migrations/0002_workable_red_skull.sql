@@ -1,0 +1,1 @@
+ALTER TABLE `users_table` ADD `fcm_token` varchar(500) DEFAULT '';

@@ -1,0 +1,37 @@
+{
+  "name": "seevents-nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs server for SEEvents",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "tsx server",
+    "db:generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit generate:sql && drizzle-kit up"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "drizzle-kit": "^0.28.1",
+    "nodemon": "^3.1.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bad-words": "^4.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.4",
+    "express": "^4.21.1",
+    "firebase-admin": "^13.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.5",
+    "openai": "^4.85.1"
+  }
+}

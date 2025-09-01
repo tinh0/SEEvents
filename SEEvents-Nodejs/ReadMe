@@ -1,0 +1,30 @@
+# SEEvents-Nodejs
+
+## Setup Instructions
+
+1. Add a `.env` file to the root of your project.
+
+2. Ensure that your `drizzle.config.ts` file includes the following:
+    ```json
+    "include": ["src/**/*.ts", "*.ts"]
+    ```
+
+3. Install the necessary dependencies:
+    ```sh
+    npm install
+    ```
+
+4. Generate the necessary files using Drizzle Kit:
+    ```sh
+    npx drizzle-kit generate
+    ```
+
+5. Run the migrations:
+    ```sh
+    npx drizzle-kit migrate
+    ```
+
+6. Start the development server:
+    ```sh
+    npm run dev
+    ```

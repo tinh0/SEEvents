@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1738210054416,
+      "tag": "0000_heavy_thing",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1739513752812,
+      "tag": "0001_rare_gideon",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1740616766193,
+      "tag": "0002_nice_blonde_phantom",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1740619336004,
+      "tag": "0003_warm_the_stranger",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1741059375078,
+      "tag": "0005_curious_silver_sable",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1742360667347,
+      "tag": "0006_long_flatman",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1743473355874,
+      "tag": "0007_last_landau",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1744150759200,
+      "tag": "0008_large_grim_reaper",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1744232826394,
+      "tag": "0009_watery_lightspeed",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1744235429070,
+      "tag": "0010_solid_night_thrasher",
+      "breakpoints": true
+    }
+  ]
+}
